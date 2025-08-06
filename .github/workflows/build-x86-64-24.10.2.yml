@@ -14,7 +14,7 @@ on:
         default: 'yes'
         type: choice
         options:
-          #- 'yes'
+          - 'yes'
           - 'no'
       enable_pppoe:
         description: "是否配置PPPoE拨号信息?"
@@ -22,7 +22,7 @@ on:
         default: 'no'
         type: choice
         options:
-        #- 'yes'
+        - 'yes'
         - 'no'
       pppoe_account:
         description: "宽带账号 (若启用PPPoE)"
